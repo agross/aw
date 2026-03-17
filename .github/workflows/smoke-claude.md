@@ -21,6 +21,7 @@ engine:
   model: MiniMax-M2.5
   env:
     ANTHROPIC_BASE_URL: "https://api.minimax.io/anthropic"
+    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 strict: true
 inlined-imports: true
 imports:
